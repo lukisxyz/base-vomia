@@ -3,7 +3,7 @@ import { connectorsForWallets } from "@rainbow-me/rainbowkit";
 import {
   coinbaseWallet,
   metaMaskWallet,
-  rainbowWallet,
+  rabbyWallet,
 } from "@rainbow-me/rainbowkit/wallets";
 import { useMemo } from "react";
 import { createPublicClient } from "viem";
@@ -32,7 +32,7 @@ export function useWagmiConfig() {
         },
         {
           groupName: "Other Wallets",
-          wallets: [rainbowWallet, metaMaskWallet],
+          wallets: [rabbyWallet, metaMaskWallet],
         },
       ],
       {

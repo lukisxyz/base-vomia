@@ -22,8 +22,11 @@ function OnchainProviders({ children }: Props) {
           chain={baseSepolia}
           config={{
             appearance: {
-              mode: "auto",
+              mode: "light",
               theme: "base",
+            },
+            wallet: {
+              display: "modal",
             },
           }}
         >
