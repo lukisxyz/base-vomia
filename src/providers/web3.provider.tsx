@@ -27,6 +27,9 @@ function OnchainProviders({ children }: Props) {
             },
             wallet: {
               display: "modal",
+              supportedWallets: {
+                rabby: true,
+              },
             },
           }}
         >
